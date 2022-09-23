@@ -10,3 +10,5 @@ Question 3 :
 
 La solution mise en place permet de s'affranchir d'une modification de la classe Simulateur à chaque ajout de personnage. On instancie direcement une classe dérivée de Personnage qui implémente toutes les méthodes génériques nécessaires à l'utilisation de la simulation (animer par exemple).
 Dans ce cas précis (avec la même interraction textuelle de chaques type de Personnage), on peut imaginer la méthode animer concrète dans la classe Personnage et pouvant être appellée via l'opérateur "super" dans les classes dérivées.
+
+![alt text](https://github.com/malo2b/M1_TD_Patterns_FactoryMethod_Ex1/blob/master/DiagrammeDeClasse.png)
