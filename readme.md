@@ -9,6 +9,6 @@ La conception de la calsse Simulateur comporte un gros inconvénient dans l'hypo
 Question 3 :
 
 La solution mise en place permet de s'affranchir d'une modification de la classe Simulateur à chaque ajout de personnage. On instancie direcement une classe dérivée de Personnage qui implémente toutes les méthodes génériques nécessaires à l'utilisation de la simulation (animer par exemple).
-Dans ce cas précis (avec la même interraction textuelle de chaques type de Personnage), on peut imaginer la méthode animer concrète dans la classe Personnage et pouvant être appellée via l'opérateur "super" dans les classes dérivées.
+Dans ce cas précis (avec la même interraction textuelle de chaques type de Personnage), on peut imaginer la méthode animer concrète dans la classe Personnage et pouvant être appellée via l'opérateur "super" dans les classes dérivées [visible ici](https://github.com/malo2b/M1_TD_Patterns_FactoryMethod_Ex1/blob/408837ab5d0d75292f0cd65f60f91e6cba995c31/Troll.java#L9).
 
 ![alt text](https://github.com/malo2b/M1_TD_Patterns_FactoryMethod_Ex1/blob/master/DiagrammeDeClasse.png)
