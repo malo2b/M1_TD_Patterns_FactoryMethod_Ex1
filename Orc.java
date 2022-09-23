@@ -5,7 +5,7 @@ public class Orc extends Personnage {
     }
 
     @Override
-    void animer() {
+    public void animer() {
         super.animer();
     }
 

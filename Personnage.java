@@ -6,7 +6,7 @@ public abstract class Personnage {
         this.nom = nom;
     }
 
-    void animer() {
+    public void animer() {
         System.out.println(
             String.format("Le %s du nom de %s s'anime", getClass().getName(), nom)
         );
